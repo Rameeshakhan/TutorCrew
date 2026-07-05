@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment
+.env
+*.env
+
+# ChromaDB data
+chroma_data/
+/tmp/tutorcrew_*
+
+# Uploads
+uploads/
+
+# Google OAuth token
+google_credentials.json
+token.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
