@@ -40,11 +40,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           position: "sticky", top: 0, zIndex: 50
         }}>
           <div style={{ fontSize: 15, fontWeight: 700, flex: 1 }}>{titles[pathname] || "TutorCrew"}</div>
-          <div style={{
-            background: "rgba(108,99,255,0.12)", color: "var(--accent2)",
-            fontSize: 11, fontWeight: 600, padding: "3px 10px", borderRadius: 20,
-            border: "1px solid rgba(108,99,255,0.22)"
-          }}>CrewAI · ChromaDB · Claude Sonnet 4.6</div>
+          
           <div style={{
             display: "flex", alignItems: "center", gap: 6, fontSize: 12,
             color: "var(--green)", background: "rgba(16,185,129,0.08)",

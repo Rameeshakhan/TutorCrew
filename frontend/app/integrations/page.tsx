@@ -93,27 +93,6 @@ export default function IntegrationsPage() {
         </div>
       </div>
 
-      <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 14, padding: 22 }}>
-        <div style={{ fontSize: 14, fontWeight: 700, marginBottom: 16 }}>🛠️ Tech Stack</div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 12 }}>
-          {[
-            { icon: "🤖", name: "CrewAI 1.x", desc: "Multi-agent orchestration" },
-            { icon: "⚡", name: "FastAPI", desc: "Backend API" },
-            { icon: "🔮", name: "Claude Sonnet 4.6", desc: "LLM backbone" },
-            { icon: "🗄️", name: "ChromaDB", desc: "Vector memory store" },
-            { icon: "📄", name: "PyMuPDF", desc: "PDF text extraction" },
-            { icon: "📅", name: "Google Calendar", desc: "Spaced scheduling" },
-            { icon: "💬", name: "Twilio WhatsApp", desc: "Study reminders" },
-            { icon: "🔭", name: "LangSmith", desc: "Agent tracing" },
-          ].map(t => (
-            <div key={t.name} style={{ padding: "14px 16px", background: "var(--surface)", borderRadius: 10, border: "1px solid var(--border)", textAlign: "center" }}>
-              <div style={{ fontSize: 26, marginBottom: 6 }}>{t.icon}</div>
-              <div style={{ fontSize: 12, fontWeight: 700, marginBottom: 3 }}>{t.name}</div>
-              <div style={{ fontSize: 11, color: "var(--muted)" }}>{t.desc}</div>
-            </div>
-          ))}
-        </div>
-      </div>
     </AppShell>
   );
 }

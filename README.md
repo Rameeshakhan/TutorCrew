@@ -4,6 +4,12 @@
 
 ---
 
+## 🎬 Demo Video
+
+📽️ **[Watch the full demo](https://drive.google.com/drive/folders/1piTcNKNejtwV-u-4Ymwn5bjODo2v9RxX?usp=sharing)** — See TutorCrew in action: document upload, AI quiz generation, gap detection, and study scheduling.
+
+---
+
 ## 🚀 Setup in 3 steps
 
 ### Step 1 — Configure environment
